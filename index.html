@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TasksNova</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Inter,Arial,sans-serif;background:#070b12;color:#fff}
+header{height:70px;padding:0 22px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #1c2533}
+.logo{font-size:25px;font-weight:800}.logo span{color:#7cff5b}
+button{border:0;border-radius:12px;padding:12px 18px;font-weight:700;cursor:pointer}
+.login{background:#172130;color:#fff}.hero{max-width:1100px;margin:auto;padding:75px 22px}
+.badge{display:inline-block;background:#102417;color:#7cff5b;padding:8px 12px;border-radius:999px;font-size:13px}
+h1{font-size:clamp(42px,7vw,72px);line-height:1;margin:18px 0}
+p{color:#9eabbc;font-size:18px;line-height:1.6;max-width:650px}
+.cta{background:#7cff5b;color:#071008;margin-top:20px;font-size:16px}
+.grid{max-width:1100px;margin:0 auto;padding:0 22px 70px;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:#0d141f;border:1px solid #202c3b;border-radius:18px;padding:24px}
+.card h3{margin-top:0}.card p{font-size:15px}
+@media(max-width:700px){.grid{grid-template-columns:1fr}header{padding:0 15px}}
+</style>
+</head>
+<body>
+<header><div class="logo">Tasks<span>Nova</span></div><button class="login" onclick="alert('Login will be connected next.')">Login</button></header>
+<main>
+<section class="hero">
+<span class="badge">TASKS PLATFORM</span>
+<h1>Earn from tasks.<br>Grow with TasksNova.</h1>
+<p>Welcome to TasksNova — a platform for tasks, rewards, wallet management and referrals. This is the live starter page while we connect the full platform.</p>
+<button class="cta" onclick="alert('TasksNova dashboard is coming next.')">Get Started</button>
+</section>
+<section class="grid">
+<div class="card"><h3>Tasks & Rewards</h3><p>Complete available tasks and track your earnings.</p></div>
+<div class="card"><h3>Wallet</h3><p>View your balance, transactions and withdrawal status.</p></div>
+<div class="card"><h3>Referrals</h3><p>Track your referral levels and eligible commissions.</p></div>
+</section>
+</main>
+</body>
+</html>
